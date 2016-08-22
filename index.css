@@ -1,0 +1,11 @@
+.apps {
+
+}
+
+.bell {
+    background-image: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
+    background-position: -69px -69px;
+    position: absolute;
+    width: 30px;
+    height: 30px
+}
