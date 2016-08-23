@@ -1,9 +1,11 @@
 .bell {
     background-image: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
-    background-position: -69px -69px;
+    background-position: -65px -61px;
     position: absolute;
     width: 30px;
-    height: 30px
+    height: 30px;
+    float: right;
+    margin-right: 10px;
 }
 
 .apps {
@@ -12,4 +14,59 @@
     position: absolute;
     width: 30px;
     height: 30px;
+    float: right;
+}
+
+body {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+.nav {
+  margin: 7px 95px 0 0;	
+}
+
+.header {
+	width: 111%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: list-item;
+    text-align: center;
+    padding: 18px 8px;
+    text-decoration: none;
+    color: #000;
+    vertical-align: middle;
+
+}
+
+.user {
+	border-radius: 16px;
+	margin: -8px;
+	float: right;
+}
+
+a:hover {
+	opacity: 0.75;
+	text-decoration: underline;
+}
+
+#user {
+	border-radius: 16px;
+	margin: -8px 1px 1px 1px;
+	padding-right: 0px
+}
+
+.images {
+	margin-right: 50px;
 }
