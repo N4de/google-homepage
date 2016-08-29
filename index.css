@@ -81,3 +81,76 @@ a:hover {
 .apps_container {
 	margin: 3px 0px 0px 0px;
 }
+
+#logo {
+	text-align: center;
+	margin-top: 160px;
+	margin-bottom: 15px;
+}
+
+#search {
+	text-align: center;
+}
+
+.search {
+	border: 1px solid #222;
+	opacity: 0.25;
+	width: 638px;
+	margin: 0px;
+	border-right: 0px;
+}
+
+input {
+	padding: 10px;
+}
+
+input:focus {
+	border-color: #1b8ea9;
+	opacity: 1;
+	border-right: 0px;
+}
+
+form:focus {
+	border-color: #1b8ea9;
+	opacity: 1;
+	border-right: 0px;
+}
+
+.mic {
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+    opacity: 1;
+}
+
+.search_button {
+	display: inline-block;
+	margin-left: 40%;
+	margin-top: 25px;
+}
+
+.lucky_button {
+	display: inline-block;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.mic_container {
+	display: inline;
+	border-right: 1px solid #222;
+	opacity: 0.25;
+	position: absolute;
+	right: 347px;
+}
+
+input[type="submit"] {
+	font-weight: bold;
+	opacity: 0.50;
+
+}
+
+input[type="submit"]:hover {
+	font-weight: bold;
+	opacity: 1;
+
+}
